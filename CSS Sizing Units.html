@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid #000000;
+            /* width: 2048px;  */
+            background-color: aquamarine;
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            margin: 23px auto;
+            /* height: 80vh; */
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+
+        .container >p {
+            font-size: 2rem;
+            width: 50%;
+            border: 2px solid red;
+        }
+        .container> p >div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont {
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            border: 2px solid black;
+            color: black;
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="box">
+        This is a Box
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iste minus molestias unde quis error
+            laborum, similique sapiente consequuntur consectetur recusandae accusantium aut.
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsam itaque, porro aliquam nemo tempora, provident odio voluptates expedita minima natus saepe harum!</div>
+        </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequuntur eum, laborum totam nostrum consectetur
+        culpa odit doloremque commodi repudiandae consequatur? Ipsam, maxime aut? Ducimus iusto nulla veniam eaque,
+        laboriosam quasi itaque.
+    </div>
+    <div class="mycont"> I am A container</div>
+</body>
+
+</html>

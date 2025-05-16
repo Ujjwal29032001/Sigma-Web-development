@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <Style>
+        :root{
+            --color:rgba(92,124,143,0.829);
+            --seccolor:rgb(178,153,153);
+            --defpad:20px;
+            --defop:0.6;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         body{
+            background-color: var(--color);
+         }
+         .navbar{
+            background-color: rgb(64,39,54);
+         }
+         ul{
+            display: flex;
+         }
+         ul li{
+            opacity: var(--defop);
+            list-style: none;
+            padding: var(--defpad);
+            border: 3px solid black;
+         }
+         ul li:first-child{
+            --color:rgb(85,85,173);
+            background-color: var(--color);
+         }
+         ul li{
+            --color:rgb(75,75,89);
+            background-color: var(--color);
+         }
+         ul li:last-child{
+            --color:rgb(20,20,134);
+            background-color: var(--color);
+         }
+         .contanier{
+            background-color: var(--seccolor);
+         }
+    </Style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        
+    </div>
+    <div class="contanier">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo iste mollitia dolorem laudantium corrupti facere iusto cumque cum. Explicabo iure quasi beatae.
+    </div>
+</body>
+</html>

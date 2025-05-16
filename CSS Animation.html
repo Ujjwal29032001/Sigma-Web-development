@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .contanier{
+            background-color:rgba(9,106,106);
+            height:80vh;
+            width: 30vw;
+        }
+        .box{
+            width:34px;
+            height:43px;
+            /* background-color:aqua; */
+            /* animation: UjjwalkaAnimation;
+            animation-duration:1s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-out;
+            animation-delay: 1s;
+            animation-direction: reverse;
+            animation-play-state: paused; */
+            animation: UjjwalkaAnimation 3s ease-in-out 1, 
+                       ujjwal2 3s ease-in-out 3s 1; 
+        }
+        @keyframes UjjwalkaAnimation {
+            from{
+                 background-color: red;
+            }
+            to{
+                background-color:yellow;
+                /* transform: translateX(1000px); */
+            }
+        }
+
+        @keyframes ujjwal2 {
+            0%{
+                transform:rotate(100deg);
+            }
+            20%{
+                transform:rotate(200deg);
+            }
+            50%{
+                transform: rotate(220deg);
+            }
+            80%{
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(310deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contanier">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>

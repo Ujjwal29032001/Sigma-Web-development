@@ -1,0 +1,105 @@
+/* body{ */
+/* background-color: #b1889c; */
+
+/* }    */
+/* td{ */
+/* border: 2px solid black; */
+/* } */
+/* p{ */
+/* background: aqua; */
+/* } */
+/* a{ */
+/* background-color: rgb(140, 140, 199); */
+/* } */
+/* div{ */
+/* background-color: yellow; */
+/* } */
+/* .red{ */
+/* color: red; */
+
+/* } */
+/* .bg-yellow{ */
+/* background-color: yellow; */
+/* } */
+/* #firstdiv{ */
+/* background-color: red; */
+/* } */
+/* h1{ */
+/* background-color: blueviolet; */
+/* color: aqua; */
+/* } */
+/* .wrap{
+    margin: 30px auto;
+    max-width: 1000px;
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family:sans-serif;
+}
+
+
+.box{
+    width: calc(20%);
+    margin: 20px 20px;
+    background: #ddd;
+    cursor:pointer;
+    color: #FFF;
+    text-align: center;
+    line-height: 130px;
+}
+
+.blue{
+    background-color: rgba(56,207,248,0.5);
+
+}
+
+.scaleX{
+    transform: scaleX(1);
+    transition: transform 0.5s ease;
+}
+
+.box:hover .scaleX{
+    transform: scaleX(2);
+}
+
+.scaleY{
+    transform: scaleY(1);
+    transition: transform 0.5s ease;
+}
+
+.box:hover .scaleY{
+    transform: scaleY(2);
+} */
+
+/* .scale{
+    transform: scale(1,1);
+    transition: transform 0.5s ease;
+}
+
+.box:hover .scale{
+    transform: scale(1.5, 1.5);
+}
+ 
+.translateX{
+    transform: translateX(1);
+    transition: transform 0.5s ease;
+} */
+
+/* body{ */
+/* height: 100%; */
+/* width: 100%; */
+/* } */
+/*  */
+/* .bulb{ */
+
+/* background: yellow; */
+/* } */
+/*  */
+/* .bulbContainer{ */
+/* height: 341px; */
+/* width: 341px; */
+/*  */
+/* } */
+
+

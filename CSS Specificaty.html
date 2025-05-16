@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificaty</title>
+    <Style>
+        /* the specificiaty of this is selector is 1 */
+        /* h1{ */
+            /* color:aqua */
+        /* } */
+        /* the specificiaty of this is selector is 10+1 */
+
+        h1.yellow{
+            color: yellow;
+        }
+        /* the specificiaty of this is selector is 10 */
+
+        /* .cred{ */
+            /* color: red; */
+        /* } */
+        /* the specificiaty of this is selector is 10 */
+
+        .cpurple{
+            color:purple;
+        } 
+        /* h1{ */
+            /* color:aqua */
+        /* } */
+        /* .cred{ */
+            /* color: red; */
+        /* } */
+        /* the specificiaty of this is selector is 10 */
+         /* this is example of attribuite selector */
+         [data-x=a]{ 
+             background-color: maroon; 
+        } 
+        /* the specificaty of this selector is 1+10+10+10+10 */
+        a.harryclass.rohanclass[href]:hover {
+            color: blueviolet;
+        }    
+    </Style>
+</head>
+<body>
+<div>
+    <h1  class="yellow cred cpurple" data-x="a">
+         CSS Specificaty
+    </h1>
+
+</div>
+</body>
+</html>
